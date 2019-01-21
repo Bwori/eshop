@@ -13,6 +13,8 @@ gem 'sass', '~> 3.7', '>= 3.7.3'
 gem 'bootstrap-sass', '~> 3.4'
 gem 'paperclip', '~> 6.1'
 
+gem 'devise', '~> 4.5'
+
 gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
