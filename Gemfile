@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+source 'https://rubygems.org'
 
 gem 'rails', '4.2.5'
 gem 'sqlite3'
@@ -14,6 +15,8 @@ gem 'bootstrap-sass', '~> 3.4'
 gem 'paperclip', '~> 6.1'
 
 gem 'devise', '~> 4.5'
+gem 'stripe'
+gem 'figaro'
 
 gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
